@@ -1,0 +1,17 @@
+# Dataset Description
+
+The dataset used for this study consists of a variety of data types and annotations crucial for training and evaluating object detection models in autonomous driving systems. Below is a detailed description of the dataset features:
+
+| **Feature**               | **Description**                                                                 |
+|---------------------------|---------------------------------------------------------------------------------|
+| **Image Data**             | 7,481 labeled images from urban, rural, and highway scenarios.                  |
+| **Object Annotations**     | Bounding boxes indicating object locations within images.                      |
+| **Object Classes**         | Categories like cars, pedestrians, cyclists, and trucks for detection tasks.    |
+| **Stereo Data**            | Stereo pairs for depth perception and 3D reconstruction.                       |
+| **LiDAR Data**             | LiDAR point clouds providing 3D spatial information.                           |
+| **Calibration Data**       | Camera parameters for mapping 2D images to 3D space.                           |
+| **Ground Truth**           | Reliable annotations used for evaluating model performance.                    |
+| **Evaluation Metrics**     | Mean Average Precision (mAP) for assessing detection accuracy.                 |
+| **Environmental Conditions** | Diverse weather conditions for robustness testing.                           |
+
+This dataset provides comprehensive data for training and validating object detection systems, with an emphasis on diverse environments and high-fidelity annotations for accurate model evaluation.
